@@ -7,7 +7,7 @@
 **Produce a message**
 
 ```
-docker exec -it kafka kafka-console-producer \
+docker compose exec -it kafka kafka-console-producer \
   --broker-list kafka:9092 \
   --topic test-topic
 ```
@@ -23,7 +23,7 @@ order-123
 Open another terminal and run:
 
 ```
-docker exec -it kafka kafka-console-consumer \
+docker compose exec -it kafka kafka-console-consumer \
   --bootstrap-server kafka:9092 \
   --topic test-topic \
   --from-beginning
