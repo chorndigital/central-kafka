@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.idea": true
+  },
+  "search.exclude": {
+    "**/.idea": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
+}
